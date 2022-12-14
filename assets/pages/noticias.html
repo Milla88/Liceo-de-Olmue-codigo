@@ -1,13 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noticias</title>
-    <link rel="stylesheet" href="../scss/style.css">
+    <link rel="stylesheet" href="../scss/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    
+    <!-----------------------------------------------Navbar----------------------------------------------->
+    <section>
+        <nav class="navbar fixed-top" style="background-color: #170C3D;">
+            <div class="container">
+                <a class="navbar-brand" href="../../inicio.html"><img src="../img/logo.png" alt=""></a>
+                <button class="navbar-toggler" style="background-color: #ffffff" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Liceo De Olmué</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../../inicio.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active fw-bold" aria-current="page"
+                                    href="./noticias.html">Noticias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./vida estudiantil.html">Vida
+                                    Estudiantil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./programas.html">Programas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./formacion.html">Formacion</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./contactanos.html">Contactanos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page"
+                                    href="https://www.mateonet.cl/login">MateoNet</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit"><img src="../img/search.png"
+                                    alt=""></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-----------------------------------------------Fin Nav----------------------------------------------->
+    <!-----------------------------------------------Nocticias----------------------------------------------->
+    <main>
+        <div class="container pt-4 pb-5">
+            <div class="d-flex justify-content-center mt-5 pt-5 pb-4">
+                <h2>Noticias</h2>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../img/noticia1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">ACTIVIDAD INSTITUCIONAL: Salida pedagógica.</h5>
+                            <p class="card-text">Salida pedagógica de terceros medios y cuartos medios.
+                                - Salón de las alternativas académicas de la ciudad de Valparaíso..</p>
+                            <a href="https://web.facebook.com/liceode.olmue.3/" class="card-link">Ver Más...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../img/noticia2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">GRAN EXPOSICIÓN EXPOHUTEC
+                            </h5>
+                            <p class="card-text">El pasado martes 8 de noviembre se realizo la Gran Exposición
+                                EXPOHUTEC, modalidad Humanista Científica y Técnico Profesional, con el apoyo de toda la
+                                comunidad educativa, Profesores alumnos y apoderados.</p>
+                            <a href="https://web.facebook.com/liceode.olmue.3/" class="card-link">Ver Más...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../img/noticia3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">ACTIVIDAD INSTITUCIONAL: Despedida de cuartos medios.</h5>
+                            <p class="card-text"> Este 14 de Noviembre se llevo a cabo un desayuno y un sendero de
+                                despedida de nuestros cuartos medios.</p>
+                            <a href="https://web.facebook.com/liceode.olmue.3/" class="card-link">Ver Más...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../img/noticia4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">SORTEO GENERAL 2022:
+                                Sorteo Servicio Militar 2022
+                            </h5>
+                            <p class="card-text">Ingresa a serviciomilitar.cl, revisa si saliste sorteado para realizar
+                                el Servicio Militar. Presenta tu reclamación hasta el 5 de Diciembre.</p>
+                            <a href="https://web.facebook.com/liceode.olmue.3/" class="card-link">Ver Más...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4 pt-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../img/noticia5.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MATRICULAS 2023 ABIERTAS:
+                                Desde el 19 hasta 30 de Diciembre.
+                            </h5>
+                            <p class="card-text">Las matriculas se realizaran en nuestro establecimiento de manera
+                                presencial. Para más información contactate con nosotros.</p>
+                            <a href="https://web.facebook.com/liceode.olmue.3/" class="card-link">Ver Más...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../img/noticia6.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Estudia con Gratuidad ...</h5>
+                            <p class="card-text">
+                                Completa el formulario hasta el 2 de noviembre.
+
+                                Estudia con Gratuidad y beneficios para financiar tu educación superior.</p>
+                            <a href="https://web.facebook.com/liceode.olmue.3/" class="card-link">Ver Más...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../img/noticia7.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Invitación Expohutec 2022</h5>
+                            <p class="card-text">
+                                Liceo de Olmué tiene el especial agrado de invitar a usted a la Inauguración de la
+                                Expohutec 2022.
+                                Vuestra presencia nos reafirmara ese anhelo siempre común de seguir trabajando por esta
+                                querida Comuna y en Beneficio de futuras generaciones</p>
+                            <a href="https://web.facebook.com/liceode.olmue.3/" class="card-link">Ver Más...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../img/noticia8.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">CUADRO DE HONOR PRIMER SEMESTRE</h5>
+                            <p class="card-text">El día 4 de agosto se realizó la premiación del Cuadro de honor. Donde
+                                fueron destacados un grupo de alumn@s por su destacado rendimiento académico durante el
+                                primer semestre.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>

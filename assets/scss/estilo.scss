@@ -1,0 +1,38 @@
+//Variables
+@import "../bootstrap-5/bootstrap-5.2.2/scss/bootstrap.scss";
+ 
+//*Colors
+$azul-text: #09031D;
+$azul-nav-foot: #170C3D;
+$white: #ffffff;
+$red: #A43F49;
+$azul-button: #7C77AB;
+
+
+//*Tipografia
+
+
+
+//Fin Variables
+//Navegacion  Navbar and Nav
+.navegacion{
+    background-color: $azul-nav-footer !important;
+}
+
+// Fin Navegacion 
+/
+//*Home
+.text-white{
+    margin-right: 5%;
+}
+.fondo{
+    background: #7C77AB opacify($color: #7c77ab, $amount: .1);
+}
+
+//*Fin Home
+
+//*Contactanos
+.cards-contactos{
+    border-radius: 20%;
+}
+//*Fin Contactanos

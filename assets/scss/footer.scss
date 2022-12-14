@@ -1,0 +1,341 @@
+@import "../bootstrap-5/bootstrap-5.2.2/scss/bootstrap.scss";
+
+/*------------------------------FOOTER------------------*/
+.footer{ 
+    background-color: #170C3D;
+    height: 450px;
+    margin-top: 200px;
+ }
+ .col h4{
+   color: #f1f1f1;
+} 
+ .col h6{
+   color: #f1f1f1;
+} 
+  .col hr{  
+   color: white;
+   width: 202px;
+}
+  .col .h4 iframe { 
+   margin-left: 100px;
+}
+.foter h6{
+   color: #f1f1f1;
+ }
+ .foter{
+   text-align: center;
+   position: relative;
+   left: 20px;
+ }
+ .foter hr{ 
+   color: white;
+ }
+ 
+ /*------------------------------FOOTER------------------*/
+ h5{
+    color:white
+ }
+ p{
+    color: rgb(0, 0, 0);
+ }
+ hr{ 
+    color: rgb(0, 0, 0);
+ }
+ .row h5{
+   color:#f1f1f1
+  }
+.row h3{
+   text-align: center;
+ }
+h1{
+      text-align: center;
+      color: #29166F;
+      position: relative;
+      text-align: center;
+
+    }
+.row p{ 
+   color: rgb(0, 0, 0);
+   text-align: left;
+   margin-left: 2px;
+   width: 100%;
+}
+.row h4{ 
+   text-align: left;
+   left: 400px;
+}
+p{
+   text-align: left;
+   width: 50%;
+   margin-left: 350px;
+   top: 10px;
+
+} 
+button{
+   margin-left: 600px;
+   box-shadow: 0 2px 5px 0 #7C77AB, 0 2px 5px 0 #7C77AB;
+   border: 2px solid #7C77AB;
+   border-radius: 12px;
+   width: 130px;
+}
+
+button:hover {
+   background-color:#A43F49; 
+   color: white;
+}
+
+.first p{
+   text-align: center;
+}
+.second{
+   background-color:#29166f18;
+   height: 400px;
+}
+.color{
+   background-color:#29166f18;
+}
+a{
+   position: relative;
+   left: 590px;
+   top: -45;
+   color:#170C3D;
+}
+.second a{
+   top: -60px;
+}
+.seconds{
+   background-color:#29166f18;
+   height: 440px;
+}
+.seconds a{
+   top: -60px;
+}
+.row h6{
+   text-align: left;
+}
+
+/*-----------------------RESPONSIVE FOOTER------------*/
+@media (max-width: 768px){
+.footer{
+   height: 650px;
+   width: 100%;
+}
+}
+
+@media (max-width: 567px){
+   .footer{
+      height: 1040px;
+      width: 100%;
+   }
+   }
+
+   
+/*-----------------------RESPONSIVE FOOTER------------*/
+
+/*-----------------------RESPONSIVE PG P--------------*/
+@media (max-width: 768px){
+   .second img{
+      display: none;
+   }
+}
+@media (max-width: 768px){
+   .name img{
+      display: none;
+   }
+}
+@media (max-width: 768px){
+   .name {
+      top: 20px;
+   }
+}
+@media (max-width: 768px){
+   .seconds img{
+      display: none;
+   }
+}
+
+@media (max-width: 768px){
+   .first p{
+      position: relative;
+      right: 300px;
+      width: 80%;
+   }
+}
+@media (max-width: 768px){
+   .second p{
+   position: relative;
+   left: 10px;
+   width: 260%;   
+   }
+}
+@media (max-width: 768px){
+   .name p{
+   position: relative;
+   left: 10px;
+   width: 260%;   
+   }
+}
+@media (max-width: 768px){
+   .seconds p{
+   position: relative;
+   left: 10px;
+   width: 260%;   
+   }
+}
+@media (max-width: 768px){
+   .seconds h6{
+   position: relative;
+   left: 10px;
+   }
+}
+@media (max-width: 768px){
+   .second a{
+   position: relative;
+   left: 540px; 
+   top: -35px;  
+   }
+}
+@media (max-width: 768px){
+   .second h6{
+   position: relative;
+   left: 10px; 
+   width: 200%;
+    
+   }
+}
+@media (max-width: 768px){
+   .seconds a{
+   position: relative;
+   left: 540px;
+   top: -50px;
+}
+}
+@media (max-width: 768px){
+   .name a{
+   position: relative;
+   left: 540px;
+   top: -35px;
+}
+}
+
+@media (max-width: 567px){
+   .second p{
+   width: 100%;
+}
+}
+@media (max-width: 567px){
+   .name p{
+   width: 100%;
+}
+}
+@media (max-width: 567px){
+   .seconds p{
+   width: 100%;
+}
+}
+
+@media (max-width: 567px){
+   .second a{
+      position: relative;
+      left: 200px;
+      top: -70px;
+}
+}
+@media (max-width: 567px){
+   .name a{
+      position: relative;
+      left: 200px;
+      
+}
+}
+@media (max-width: 567px){
+   .seconds a{
+   position: relative;
+   left: 200px;
+   top: -80px;
+}
+}
+@media (max-width: 567px){
+   .name .row{
+      position: relative;
+      top: 30px;
+}
+}
+@media (max-width: 567px){
+   .second{
+      background-color:#29166f18;
+      height: 450px;
+   }
+}
+
+/*-----------------------RESPONSIVE PG P--------------*/
+/*-----------------------RESPONSIVE PG F--------------*/
+@media (max-width: 768px){
+   .one p{
+      position: relative;
+      right: 300px;
+      width: 80%;
+   }
+}
+@media (max-width: 768px){
+  .one button{
+      position: relative;
+      
+      left: -350px;
+    
+   }
+}
+@media (max-width: 567px){
+   .one button{
+       position: relative;
+       left: -420px;
+     
+    }
+ }
+/*-----------------------RESPONSIVE PG F--------------*/
+/*-----------------------RESPONSIVE PG V--------------*/
+
+@media (max-width: 768px){
+   .box img{
+     float:right;
+     width: 200px;
+     margin: 0px;
+     position: relative;
+     top: 50px;
+   }
+}
+
+@media (max-width: 768px){
+   .box .row .mx-1 .my-4 img{
+     float:right;
+     width: 200px;
+     margin: 0px;
+     position: relative;
+     top: 10px;
+   }
+}
+@media (max-width: 768px){
+   .box p{
+     position: relative;
+     right: 100px;
+     width: 180%;
+   }
+}
+@media (max-width: 567px){
+   .box p{
+     left: -5px;
+     width: 100%;
+     text-align: left;
+   }
+}
+@media (max-width: 567px){
+   .box img{
+     top: 5px;
+     right: 100px;
+    
+   }
+}
+
+
+/*-----------------------RESPONSIVE PG V--------------*/
+
